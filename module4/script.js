@@ -1,22 +1,7 @@
-/*
-Solution of assignment 4:
 
-Expected output:
-
-Hello Yaakov
-Good Bye vikash
-Good Bye Tapu
-Good Bye Jason
-Hello Paul
-Hello Akash
-Hello Larry
-Hello Paula
-Hello Rohit
-Good Bye Ram
-*/
 
 (function() {
-    var names = ["Yaakov", "vikash", "Tapu", "Jason", "Paul", "Akash", "Larry", "Paula", "Rohit", "Ram"];
+    var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
     for (var i = 0; i < names.length; i++) {
         var firstLetter = names[i].charAt(0).toLowerCase();
         if (firstLetter === 'j') {
